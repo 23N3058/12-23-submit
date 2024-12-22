@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スライドインインタビュー</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="scroll-container">
+        <div id="fixed-theme">
+            <div class="theme-box">テーマ名</div>
+        </div>
+    
+        <div id="answers-container">
+            <!-- テーマ1の質問1の回答群 -->
+            <div class="answer" 
+                 data-theme-id="theme1" 
+                 data-theme="最初のテーマ"
+                 data-question-id="q1" 
+                 data-question="質問1">回答1-1</div>
+            <div class="answer" 
+                 data-theme-id="theme1" 
+                 data-theme="最初のテーマ"
+                 data-question-id="q1" 
+                 data-question="質問1">回答1-2</div>
+            <div class="answer" 
+                 data-theme-id="theme1" 
+                 data-theme="最初のテーマ"
+                 data-question-id="q1" 
+                 data-question="質問1">回答1-3</div>
+    
+            <!-- テーマ1の質問2の回答群 -->
+            <div class="answer" 
+                 data-theme-id="theme1" 
+                 data-theme="最初のテーマ"
+                 data-question-id="q2" 
+                 data-question="質問2">回答2-1</div>
+            
+            <!-- テーマ2の質問と回答群 -->
+            <div class="answer" 
+                 data-theme-id="theme2" 
+                 data-theme="次のテーマ"
+                 data-question-id="q3" 
+                 data-question="質問3">回答3-1</div>
+        </div>
+        
+        <div id="fixed-question">
+            <div class="question-box">
+                <h3>現在の質問</h3>
+                <p id="current-question"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="functions.js"></script>
+</body>
+</html>
